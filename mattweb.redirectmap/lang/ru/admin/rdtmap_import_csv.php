@@ -11,3 +11,4 @@ $MESS['RDTM_ADMIN_FILE_OPEN_ERROR'] = 'Ошибка при открытии фа
 $MESS['RDTM_ADMIN_FILE_NOT_FOUND'] = 'Файл не найден';
 $MESS['RDTM_ADMIN_TOOLS_PROCESS_FINISH_DELETE'] = 'Не забудьте удалить импортированные файлы.';
 $MESS['RDTM_ADMIN_TOOLS_PROCESS_FINAL'] = 'Импорт завершен.';
+$MESS['RDTM_ADMIN_DOWNLOAD_CSV_TMPL'] = 'Скачать шаблон CSV-файла для импорта';

@@ -103,6 +103,7 @@ Class mattweb_redirectmap extends CModule{
 
     function InstallFiles($arParams = array()){
         CopyDirFiles($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/mattweb.redirectmap/install/admin", $_SERVER["DOCUMENT_ROOT"]."/bitrix/admin", true, true);
+        CopyDirFiles($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/mattweb.redirectmap/install/csv_example", $_SERVER["DOCUMENT_ROOT"]."/upload", true, true);
         
         return true;
     }
